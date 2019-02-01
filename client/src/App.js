@@ -8,7 +8,9 @@ import Blog from './Pages/Blog';
 import Menu from './Components/Menu';
 
 class App extends Component {
+
   render() {
+
     return (
       <div className="App">
         <header className="App-header">
