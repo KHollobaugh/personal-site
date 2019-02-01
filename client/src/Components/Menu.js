@@ -12,16 +12,16 @@ const Menu = () => {
 
         <ul>
             <li>
-                <Link to={`/`}>Home</Link>
+                <Link className="link" to={`/`}>Home</Link>
             </li>
             <li>
-                <Link to={`/contact`}>Contact</Link>
+                <Link className="link" to={`/contact`}>Contact</Link>
             </li>
             <li>
-                <Link to={`/portfolio`}>Portfolio</Link>
+                <Link className="link" to={`/portfolio`}>Portfolio</Link>
             </li>
             <li>
-                <Link to={`/blog`}>Blog</Link>
+                <Link className="link" to={`/blog`}>Blog</Link>
             </li>
         </ul>
         
