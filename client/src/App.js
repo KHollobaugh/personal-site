@@ -16,9 +16,12 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-        </header>
-        
+
+      <div className="header">
+      <button>Activate Night Mode</button>
+      </div>
+      <div className="content">
+
         <div className="routes">
         <Route exact path = '/' component = {Home} />
         <Route path = '/Contact' component = {Contact} />
@@ -28,7 +31,7 @@ class App extends Component {
 
         <Menu />
 
-        
+        </div>
       </div>
     );
   }
