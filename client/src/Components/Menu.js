@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Home from '../Pages/Home';
-import Portfolio from '../Pages/Portfolio';
-import Blog from '../Pages/Blog';
-import Contact from '../Pages/Contact';
+
 
 
 
 const Menu = () => {
 
-    const url = 'http://localhost:3000/';
 
     return(
         <div className="menu">

@@ -7,6 +7,9 @@ import Portfolio from './Pages/Portfolio';
 import Blog from './Pages/Blog';
 import Menu from './Components/Menu';
 
+
+document.body.classList.add('app-background');
+
 class App extends Component {
 
   render() {
