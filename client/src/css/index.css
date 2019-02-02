@@ -180,3 +180,55 @@ table {
   font-size: 40px;
   color: white;
 }
+.routes {
+  width: 100%;
+  height: 100%;
+}
+.contact-page {
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+}
+.contact-page h1 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 35px;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.contact-content .social-media {
+  border-right: 1px solid lightgray;
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-content form {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact-content .sm-icon {
+  height: 70px;
+  width: 70px;
+  display: block;
+  border-radius: 50%;
+  background-color: lightgray;
+  box-sizing: border-box;
+}
+.contact-content .sm-icon img {
+  margin-top: 15px;
+  height: 40px;
+  width: 40px;
+}
+.contact-content .right {
+  margin-left: 50%;
+}
