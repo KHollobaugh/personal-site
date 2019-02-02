@@ -14,23 +14,16 @@ const Contact = () => {
         <h1>Let's talk</h1>
         <div className="contact-content">
         
-        <div className="form">
-        <Form>
+        <form>
+        <div class="boxes">
+            <input type="name" name="name" id="exampleName" placeholder="Name" />
 
-        <FormGroup>
-            <Input type="name" name="name" id="exampleName" placeholder="your name" />
-        </FormGroup>
+            <input type="email" name="email" id="exampleEmail" placeholder="Email" />
 
-        <FormGroup>
-            <Input type="email" name="email" id="exampleEmail" placeholder="your email" />
-        </FormGroup>
-
-        <FormGroup>
-            <Input type="message" name="message" id="message" />
-        </FormGroup>
-
-        </Form>
+            <textarea type="message" name="message" id="message" placeholder="Message" />
+            <button>Submit</button>
         </div>
+        </form>
 
         <div className="social-media">
 
