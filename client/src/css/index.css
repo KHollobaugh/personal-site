@@ -170,6 +170,7 @@ table {
   justify-content: space-between;
   align-items: center;
   height: 60vh;
+  color: white;
 }
 .home-page img {
   height: auto;
