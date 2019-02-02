@@ -126,32 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.app-background {
-  background: linear-gradient(0deg, rgba(138, 205, 197, 0.95424107) 0%, rgba(81, 118, 157, 0.92566964) 100%);
-}
-.App {
-  box-sizing: border-box;
-  height: 100vh;
-  margin: 0 auto;
-}
-.App .content {
-  width: 600px;
-  height: 85%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 50px;
-}
-.header {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-.header button {
-  border: none;
-  background: none;
-}
 .menu ul {
   width: 400px;
   justify-content: space-between;
@@ -270,4 +244,30 @@ table {
 }
 .contact-content .right {
   margin-left: 50%;
+}
+.app-background {
+  background: linear-gradient(0deg, rgba(138, 205, 197, 0.95424107) 0%, rgba(81, 118, 157, 0.92566964) 100%);
+}
+.App {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0 auto;
+}
+.App .content {
+  width: 600px;
+  height: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.header {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.header button {
+  border: none;
+  background: none;
 }

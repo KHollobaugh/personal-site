@@ -1,5 +1,4 @@
 import React from 'react';
-import { Form, FormGroup, Input } from 'reactstrap';
 import Phone from '../images/phone.png';
 import Email from '../images/email.png';
 import GitHub from '../images/github.png';

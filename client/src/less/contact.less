@@ -1,0 +1,95 @@
+
+//contact page styling
+
+.routes {
+    width: 100%;
+    height: 100%;
+}
+.contact-page {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    h1 {
+        font-size: 35px;
+        color: white;
+        margin-bottom: 35px;
+    }
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+    .social-media {
+        border-right: 1px solid lightgray;
+        width: 49%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    form {
+        width: 49%;
+        height: 100%;
+        .boxes {
+            max-width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-left: 50px;
+        }
+        input {
+            color: white;
+            font-size: 16px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid lightgrey;
+            height: 25px;
+        }
+        input::placeholder{
+            color: white;
+            font-size: 16px;
+        }
+        textarea {
+            color: white;
+            font-size: 16px;
+            background: none;
+            border: none;
+            border: 1px solid lightgrey;
+            height: 70px;
+        }
+        textarea::placeholder {
+            padding: 5px;
+            color: white;
+            font-size: 16px;
+        }
+        button {
+            background: none;
+            border: 1px solid lightgrey;
+            color: white;
+            width: 70px;
+            height: 30px;
+            font-size: 14px;
+        }
+    }
+    .sm-icon {
+        height: 70px;
+        width: 70px;
+        display: block;
+        border-radius: 50%;
+        background-color: lightgray;
+        box-sizing: border-box;
+        img {
+            margin-top: 15px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+    .right {
+        margin-left: 50%;
+    }
+}
