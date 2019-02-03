@@ -155,6 +155,43 @@ table {
   font-size: 40px;
   color: white;
 }
+.blog-page {
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+}
+.blog-page a {
+  text-decoration: none;
+}
+.blog-page .card {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.blog-page h1 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 35px;
+}
+.blog-page img {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.blog-page .card-body {
+  margin: 10px 0px 0px 30px;
+  text-align: left;
+}
+.blog-page .card-body h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.blog-page .card-body h4 {
+  color: lightgrey;
+  font-size: 16px;
+}
 .routes {
   width: 100%;
   height: 100%;

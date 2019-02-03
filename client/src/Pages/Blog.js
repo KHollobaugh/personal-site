@@ -20,7 +20,8 @@ class Blog extends Component {
 
     render(){
     return (
-        <div>
+        <div className="blog-page">
+          <h1>Recent Articles</h1>
       <BlogDisplay articles={this.state.articles}/>
         </div>
     )
