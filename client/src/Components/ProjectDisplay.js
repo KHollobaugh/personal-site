@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
+
 const ProjectDisplay = props => {
     return (
         <div className='project-display'>

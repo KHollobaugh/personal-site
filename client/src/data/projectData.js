@@ -16,15 +16,15 @@ const projectData = [{
     rendering: 'https://katys-lambda-list.netlify.com/',
     code: 'https://github.com/KHollobaugh/React-Todo'
 },
-// {
-//     title: "Instagram Clone",
-//     date: "10.11.2018",
-//     description: "Clone of desktop instagram with log-in",
-//     technologies: "ReactJS, Styled Components",
-//     snapshot: 'https://media.giphy.com/media/80jPcMnuDA05OgWp7U/giphy.gif',
-//     rendering: 'https://elifturkphotography.netlify.com/',
-//     code: 'https://github.com/KHollobaugh/photography-website'
-// },
+{
+    title: "Instagram Clone",
+    date: "10.11.2018",
+    description: "Clone of desktop instagram with log-in",
+    technologies: "ReactJS, Styled Components",
+    snapshot: 'https://media.giphy.com/media/80jPcMnuDA05OgWp7U/giphy.gif',
+    rendering: 'https://elifturkphotography.netlify.com/',
+    code: 'https://github.com/KHollobaugh/photography-website'
+},
 {
     title: "Elif Turk Photography",
     date: "10.24.2018",

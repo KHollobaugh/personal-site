@@ -192,6 +192,47 @@ table {
   color: lightgrey;
   font-size: 16px;
 }
+.portfolio-page {
+  width: 100%;
+  text-align: center;
+}
+.portfolio-page a {
+  text-decoration: none;
+}
+.portfolio-page .card {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid lightgrey;
+}
+.portfolio-page h1 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 35px;
+}
+.portfolio-page img {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.portfolio-page .card-body {
+  margin: 10px 0px 0px 30px;
+  text-align: left;
+}
+.portfolio-page .card-body h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.portfolio-page .card-body h4 {
+  color: lightgrey;
+  font-size: 16px;
+}
+.portfolio-page .project-display {
+  border: 1px solid lightgrey;
+  overflow-y: auto;
+  max-height: 60vh;
+}
 .routes {
   width: 100%;
   height: 100%;
