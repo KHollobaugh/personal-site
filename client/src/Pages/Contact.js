@@ -5,7 +5,6 @@ import GitHub from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
 import Twitter from '../images/twitter.png';
 
-
 const Contact = () => {
     return(
         <div className="contact-page">
@@ -38,5 +37,6 @@ const Contact = () => {
         </div>
     )
 }
+
 
 export default Contact;

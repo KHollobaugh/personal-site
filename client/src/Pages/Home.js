@@ -1,7 +1,6 @@
 import React from 'react';
 import ProfilePic from '../images/profile-pic.jpg';
 
-
 const Home = () => {
     return(
         <div className="home-page">
@@ -16,5 +15,6 @@ const Home = () => {
         </div>
     )
 }
+
 
 export default Home;

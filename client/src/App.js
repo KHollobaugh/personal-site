@@ -10,6 +10,7 @@ import Menu from './Components/Menu';
 
 document.body.classList.add('app-background');
 
+
 class App extends Component {
 
   render() {
@@ -23,10 +24,20 @@ class App extends Component {
       <div className="content">
 
         <div className="routes">
-        <Route exact path = '/' component = {Home} />
-        <Route path = '/Contact' component = {Contact} />
-        <Route path = '/Portfolio' component = {Portfolio} />
-        <Route path = '/Blog' component = {Blog} />
+        <Route
+        exact
+        path="/"
+        component={Home}
+        />
+        <Route
+        path="/Contact"
+        component={Contact}/>
+        <Route
+        path="/Portfolio"
+        component={Portfolio}/>
+        <Route
+        path="/Blog"
+        component={Blog}/>
         </div>
 
         <Menu />
