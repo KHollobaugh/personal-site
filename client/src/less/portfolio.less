@@ -9,7 +9,7 @@
     .card {
         display: flex;
         padding: 20px;
-        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
     }
     h1 {
         font-size: 35px;
@@ -23,23 +23,38 @@
         overflow: hidden;
     }
     .card-body{
-        margin: 10px 0px 0px 30px;
+        width: 90%;
+        margin-left: 30px;
         text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         h3 {
             color: white;
             font-size: 20px;
-            margin-bottom: 10px;
         }
-        h4 {
-            color: lightgrey;
-            font-size: 16px;
-        }
+    }
+    .card-subtitle {
+        width: 250px;
     }
     .project-display {
         border: 1px solid lightgrey;
         overflow-y: auto;
         max-height: 60vh;
     }
-    
-
+    h4 {
+        color: lightgrey;
+        font-size: 16px;
+        white-space: pre-line;
+    }
+    button {
+            background: none;
+            color: white;
+            border: 1px solid lightgrey;
+            margin-right: 10px;
+        }
+    a {
+        color: white;
+        font-size: 14px;
+    }
 }

@@ -202,7 +202,7 @@ table {
 .portfolio-page .card {
   display: flex;
   padding: 20px;
-  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 .portfolio-page h1 {
   font-size: 35px;
@@ -216,22 +216,39 @@ table {
   overflow: hidden;
 }
 .portfolio-page .card-body {
-  margin: 10px 0px 0px 30px;
+  width: 90%;
+  margin-left: 30px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .portfolio-page .card-body h3 {
   color: white;
   font-size: 20px;
-  margin-bottom: 10px;
 }
-.portfolio-page .card-body h4 {
-  color: lightgrey;
-  font-size: 16px;
+.portfolio-page .card-subtitle {
+  width: 250px;
 }
 .portfolio-page .project-display {
   border: 1px solid lightgrey;
   overflow-y: auto;
   max-height: 60vh;
+}
+.portfolio-page h4 {
+  color: lightgrey;
+  font-size: 16px;
+  white-space: pre-line;
+}
+.portfolio-page button {
+  background: none;
+  color: white;
+  border: 1px solid lightgrey;
+  margin-right: 10px;
+}
+.portfolio-page a {
+  color: white;
+  font-size: 14px;
 }
 .routes {
   width: 100%;

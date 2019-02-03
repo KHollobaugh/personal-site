@@ -2,7 +2,7 @@ const projectData = [{
     title: "S&J Architecture",
     date: "9.27.2018",
     description: "Fully responsive static site",
-    technologies: "HTML, LESS, JavaScript",
+    technologies: "HTML\nLESS\nJavaScript",
     snapshot: 'https://media.giphy.com/media/cI4ZhHLNQgbvCyVw2o/giphy.gif',
     rendering: 'https://sj-architecture.netlify.com/',
     code: 'https://github.com/KHollobaugh/User-Interface-Project-Week'
@@ -20,7 +20,7 @@ const projectData = [{
     title: "Instagram Clone",
     date: "10.11.2018",
     description: "Clone of desktop instagram with log-in",
-    technologies: "ReactJS, Styled Components",
+    technologies: "ReactJS\nStyled Components",
     snapshot: 'https://media.giphy.com/media/80jPcMnuDA05OgWp7U/giphy.gif',
     rendering: 'https://elifturkphotography.netlify.com/',
     code: 'https://github.com/KHollobaugh/photography-website'
