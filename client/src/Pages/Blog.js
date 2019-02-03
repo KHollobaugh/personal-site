@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
+import blogData from '../data/blogData';
+import BlogDisplay from '../Components/BlogDisplay';
 
+class Blog extends Component {
+    constructor() {
+      super();
+      this.state={
+        articles: [],
+      }
+    }
+  
+    componentDidMount() {
+      setTimeout(() => {
+        this.setState({
+          articles: blogData,
+        });
+      }, 0);
+    }
 
-
-const Blog = () => {
-    return(
-        <div className="blog-page">
-
-        <h1>Blog</h1>
-        
+    render(){
+    return (
+        <div>
+      <BlogDisplay articles={this.state.articles}/>
         </div>
     )
+}
 }
 
 export default Blog;
