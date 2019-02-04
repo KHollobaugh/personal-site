@@ -1,6 +1,9 @@
 //menu styling
 
 .menu {
+    @media @phone {
+        width: 100%;
+    }
     ul{
         width: 400px;
         justify-content: space-between;
@@ -8,6 +11,10 @@
         list-style: none;
         border-top: 1px solid lightgray;
         padding-top: 20px;
+        @media @phone {
+            width: 90%;
+            font-size: 18px;
+        }
     }
 
     .link {
