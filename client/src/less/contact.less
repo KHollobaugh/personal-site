@@ -13,6 +13,10 @@
         font-size: 35px;
         color: white;
         margin-bottom: 35px;
+        @media @phone {
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
     }
 }
 
@@ -22,6 +26,9 @@
     width: 100%;
     height: 100%;
     justify-content: space-between;
+    @media @phone {
+        flex-direction: column;
+    }
 
     .social-media {
         border-right: 1px solid lightgray;
@@ -30,10 +37,20 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        @media @phone {
+            width: 90%;
+            flex-direction: row;
+            border: none;
+            padding-left: 4%;
+        }
     }
     form {
         width: 49%;
         height: 100%;
+        @media @phone {
+            width: 90%;
+            padding-left: 10px;
+        }
         .boxes {
             max-width: 300px;
             height: 300px;
@@ -41,6 +58,12 @@
             flex-direction: column;
             justify-content: space-evenly;
             margin-left: 50px;
+            @media @phone {
+                margin: 0px;
+                min-width: 100%;
+                height: 280px;
+                align-items: center;
+            }
         }
         input {
             color: white;
@@ -49,6 +72,9 @@
             border: none;
             border-bottom: 1px solid lightgrey;
             height: 25px;
+            @media @phone {
+                width: 90%;
+            }
         }
         input:focus {
             outline:none;
@@ -64,6 +90,9 @@
             border: none;
             border: 1px solid lightgrey;
             height: 70px;
+            @media @phone {
+                width: 90%;
+            }
         }
         textarea:focus {
             outline:none;
@@ -80,6 +109,11 @@
             width: 70px;
             height: 30px;
             font-size: 14px;
+            @media @phone {
+                width: 150px;
+                height: 40px;
+                font-size: 18px;
+            }
         }
     }
     .sm-icon {
@@ -89,14 +123,31 @@
         border-radius: 50%;
         background-color: lightgray;
         box-sizing: border-box;
+        @media @phone {
+            height: 45px;
+            width: 45px;
+        }
         img {
             margin-top: 15px;
             height: 40px;
             width: 40px;
+            @media @phone {
+                height: 30px;
+                width: 30px;
+                margin-top: 10px;
+            }
         }
     }
     .right {
         margin-left: 50%;
+        @media @phone{
+            margin: 0px;
+        }
+    }
+    .email {
+        @media @phone {
+            display: none;
+        }
     }
 }
 

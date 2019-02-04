@@ -130,6 +130,7 @@ table {
 @media (max-width: 650px) {
   .menu {
     width: 100%;
+    padding-left: 8%;
   }
 }
 .menu ul {
@@ -291,12 +292,23 @@ table {
   color: white;
   margin-bottom: 35px;
 }
+@media (max-width: 650px) {
+  .contact-page h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}
 .contact-content {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
   height: 100%;
   justify-content: space-between;
+}
+@media (max-width: 650px) {
+  .contact-content {
+    flex-direction: column;
+  }
 }
 .contact-content .social-media {
   border-right: 1px solid lightgray;
@@ -306,9 +318,23 @@ table {
   flex-direction: column;
   justify-content: space-between;
 }
+@media (max-width: 650px) {
+  .contact-content .social-media {
+    width: 90%;
+    flex-direction: row;
+    border: none;
+    padding-left: 4%;
+  }
+}
 .contact-content form {
   width: 49%;
   height: 100%;
+}
+@media (max-width: 650px) {
+  .contact-content form {
+    width: 90%;
+    padding-left: 10px;
+  }
 }
 .contact-content form .boxes {
   max-width: 300px;
@@ -318,6 +344,14 @@ table {
   justify-content: space-evenly;
   margin-left: 50px;
 }
+@media (max-width: 650px) {
+  .contact-content form .boxes {
+    margin: 0px;
+    min-width: 100%;
+    height: 280px;
+    align-items: center;
+  }
+}
 .contact-content form input {
   color: white;
   font-size: 16px;
@@ -325,6 +359,11 @@ table {
   border: none;
   border-bottom: 1px solid lightgrey;
   height: 25px;
+}
+@media (max-width: 650px) {
+  .contact-content form input {
+    width: 90%;
+  }
 }
 .contact-content form input:focus {
   outline: none;
@@ -340,6 +379,11 @@ table {
   border: none;
   border: 1px solid lightgrey;
   height: 70px;
+}
+@media (max-width: 650px) {
+  .contact-content form textarea {
+    width: 90%;
+  }
 }
 .contact-content form textarea:focus {
   outline: none;
@@ -357,6 +401,13 @@ table {
   height: 30px;
   font-size: 14px;
 }
+@media (max-width: 650px) {
+  .contact-content form button {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
 .contact-content .sm-icon {
   height: 70px;
   width: 70px;
@@ -365,13 +416,36 @@ table {
   background-color: lightgray;
   box-sizing: border-box;
 }
+@media (max-width: 650px) {
+  .contact-content .sm-icon {
+    height: 45px;
+    width: 45px;
+  }
+}
 .contact-content .sm-icon img {
   margin-top: 15px;
   height: 40px;
   width: 40px;
 }
+@media (max-width: 650px) {
+  .contact-content .sm-icon img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+  }
+}
 .contact-content .right {
   margin-left: 50%;
+}
+@media (max-width: 650px) {
+  .contact-content .right {
+    margin: 0px;
+  }
+}
+@media (max-width: 650px) {
+  .contact-content .email {
+    display: none;
+  }
 }
 .app-background {
   background: linear-gradient(0deg, rgba(138, 205, 197, 0.95424107) 0%, rgba(81, 118, 157, 0.92566964) 100%);
@@ -394,6 +468,7 @@ table {
 @media (max-width: 650px) {
   .App .content {
     width: 90%;
+    padding: 0px;
   }
 }
 .header {
