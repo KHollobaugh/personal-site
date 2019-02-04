@@ -93,3 +93,32 @@
         margin-left: 50%;
     }
 }
+
+
+//Animated buttons
+@-webkit-keyframes hvr-back-pulse {
+    50% {
+            background-color: rgba(72,117,180, 0.75);
+    }
+  }
+  @keyframes hvr-back-pulse {
+    50% {
+        background-color: rgba(72,117,180, 0.75);
+}
+  }
+  .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #4875B4;
+    background-color: #4875B4;
+    color: white;
+  }
+  
