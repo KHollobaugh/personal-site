@@ -12,14 +12,14 @@ const Contact = () => {
         <h1>Let's talk</h1>
         <div className="contact-content">
         
-        <form>
+        <form action="https://formspree.io/khollobaugh@gmail.com" method="POST">
         <div class="boxes">
             <input type="name" name="name" id="exampleName" placeholder="Name" />
 
             <input type="email" name="email" id="exampleEmail" placeholder="Email" />
 
             <textarea type="message" name="message" id="message" placeholder="Message" />
-            <button>Submit</button>
+            <button type="submit" value="send">Submit</button>
         </div>
         </form>
 
