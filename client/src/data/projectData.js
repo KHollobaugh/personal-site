@@ -17,20 +17,20 @@ const projectData = [{
     code: 'https://github.com/KHollobaugh/React-Todo'
 },
 {
-    title: "Instagram Clone",
+    title: "Lambda Notes App",
     date: "10.11.2018",
-    description: "Clone of desktop instagram with log-in",
+    description: "Single-page note taking application",
     technologies: "ReactJS\nStyled Components",
-    snapshot: 'https://media.giphy.com/media/80jPcMnuDA05OgWp7U/giphy.gif',
-    rendering: 'https://elifturkphotography.netlify.com/',
-    code: 'https://github.com/KHollobaugh/photography-website'
+    snapshot: 'https://media.giphy.com/media/1gPzIBi9Tj2VNtweet/giphy.gif',
+    rendering: 'https://lambda-notes-kh.netlify.com/',
+    code: 'https://github.com/KHollobaugh/back-end-project-week'
 },
 {
     title: "Elif Turk Photography",
     date: "10.24.2018",
     description: "Photography website for independent client",
     technologies: "ReactJS",
-    snapshot: 'https://media.giphy.com/media/80jPcMnuDA05OgWp7U/giphy.gif',
+    snapshot: 'https://media.giphy.com/media/39pGOPwtfv6xhWUd0Z/giphy.gif',
     rendering: 'https://elifturkphotography.netlify.com/',
     code: 'https://github.com/KHollobaugh/photography-website'
 }

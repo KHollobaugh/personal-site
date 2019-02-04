@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "animated": "^0.2.2",
+    "hover.css": "^2.3.2",
     "less": "^3.9.0",
+    "netlify-cli": "^2.6.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",

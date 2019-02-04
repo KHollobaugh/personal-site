@@ -25,11 +25,11 @@ const Contact = () => {
 
         <div className="social-media">
 
-        <a className="sm-icon left linkedin"><img src={Linkedin} alt="linkedin icon"/></a>
-        <a className="sm-icon right twitter"><img src={Twitter} alt="twitter icon"/></a>
-        <a className="sm-icon left github"><img src={GitHub} alt="github icon"/></a>
-        <a className="sm-icon right email"><img src={Email} alt="email icon"/></a>
-        <a className="sm-icon left phone"><img src={Phone} alt="phone icon"/></a>
+        <a href="https://www.linkedin.com/in/katy-hollobaugh/" className="sm-icon left linkedin"><img src={Linkedin} alt="linkedin icon"/></a>
+        <a href="https://twitter.com/KatyHollobaugh" className="sm-icon right twitter"><img src={Twitter} alt="twitter icon"/></a>
+        <a href="https://github.com/KHollobaugh" className="sm-icon left github"><img src={GitHub} alt="github icon"/></a>
+        <a href="mailto:khollobaugh@gmail.com" className="sm-icon right email"><img src={Email} alt="email icon"/></a>
+        <a href="tel:1-734-272-8234" className="sm-icon left phone"><img src={Phone} alt="phone icon"/></a>
 
         </div>
         </div>
