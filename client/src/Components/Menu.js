@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -12,16 +12,32 @@ const Menu = () => {
 
         <ul>
             <li>
-                <Link className="link" to={`/`}>Home</Link>
+                <NavLink className="link" exact to={`/`}
+                  activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "1px solid lightgrey"
+                  }}>Home</NavLink>
             </li>
             <li>
-                <Link className="link" to={`/contact`}>Contact</Link>
+                <NavLink className="link" to={`/contact`}
+                activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "1px solid lightgrey"
+                  }}>Contact</NavLink>
             </li>
             <li>
-                <Link className="link" to={`/portfolio`}>Portfolio</Link>
+                <NavLink className="link" to={`/portfolio`}
+                activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "1px solid lightgrey"
+                  }}>Portfolio</NavLink>
             </li>
             <li>
-                <Link className="link" to={`/blog`}>Blog</Link>
+                <NavLink className="link" to={`/blog`}
+                activeStyle={{
+                    fontWeight: "bold",
+                    borderBottom: "1px solid lightgrey"
+                  }}>Blog</NavLink>
             </li>
         </ul>
         
