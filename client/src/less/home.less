@@ -7,13 +7,22 @@
     align-items: center;
     height: 60vh;
     color: white;
+    @media @phone {
+        justify-content: space-around;
+    }
     img {
         height: auto;
         width: 200px;
         border-radius: 50%;
+        @media @phone {
+            width: 100px;
+        }
     }
     h1 {
         font-size: 40px;
         color: white;
+        @media @phone {
+            font-size: 30px;
+        }
     }
 }

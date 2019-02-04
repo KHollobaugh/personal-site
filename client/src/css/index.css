@@ -147,14 +147,29 @@ table {
   height: 60vh;
   color: white;
 }
+@media (max-width: 650px) {
+  .home-page {
+    justify-content: space-around;
+  }
+}
 .home-page img {
   height: auto;
   width: 200px;
   border-radius: 50%;
 }
+@media (max-width: 650px) {
+  .home-page img {
+    width: 100px;
+  }
+}
 .home-page h1 {
   font-size: 40px;
   color: white;
+}
+@media (max-width: 650px) {
+  .home-page h1 {
+    font-size: 30px;
+  }
 }
 .blog-page {
   width: 100%;
@@ -364,6 +379,11 @@ table {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 50px;
+}
+@media (max-width: 650px) {
+  .App .content {
+    width: 90%;
+  }
 }
 .header {
   padding-top: 20px;
