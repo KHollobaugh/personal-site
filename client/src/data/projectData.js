@@ -2,8 +2,8 @@ const projectData = [
 {
     title: "Lambda Notes App",
     date: "10.11.2018",
-    description: "Single-page note taking application",
-    technologies: "ReactJS\nStyled Components\nSQLite3\nRESTful API",
+    description: "Single-page note taking application with hosted relational database",
+    technologies: "ReactJS\nStyled Components\nSQLite",
     snapshot: 'https://media.giphy.com/media/1gPzIBi9Tj2VNtweet/giphy.gif',
     rendering: 'https://lambda-notes-kh.netlify.com/',
     code: 'https://github.com/KHollobaugh/back-end-project-week'

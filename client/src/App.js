@@ -32,9 +32,14 @@ toggleClass() {
       <div className={this.state.dark ? 'dark App': "App"}>
 
       <div className="header">
-      <button 
+      
+      <button class="dark-mode"
       onClick={this.toggleClass}
-      >Dark Mode</button>
+      >Dark Mode <i class="far fa-moon"></i></button>
+      <button class="light-mode"
+      onClick={this.toggleClass}
+      >Light Mode <i class="fas fa-lightbulb"></i></button>
+
       </div>
       <div className="content">
 
