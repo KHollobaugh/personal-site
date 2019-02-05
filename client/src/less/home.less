@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     height: 75vh;
-    color: white;
+    color: @text;
     @media @phone {
         justify-content: space-around;
     }
@@ -21,7 +21,7 @@
     h1 {
         margin-top: 20px;
         font-size: 40px;
-        color: white;
+        color: @text;
         letter-spacing: 1px;
         @media @phone {
             font-size: 30px;
@@ -40,8 +40,8 @@
         }
         p {
             width: 80%;
-            border-bottom: 1px solid lightgrey;
-            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid @borders;
+            border-left: 1px solid @borders;
             padding: 5px;
             letter-spacing: 1px;
             line-height: 20px;
@@ -62,10 +62,10 @@
     .tech-icons {
         display: flex;
         .react {
-            background: lightgrey;
+            background: @backgrounds;
         }
         .less {
-            background: lightgrey;
+            background: @backgrounds;
         }
     }
 }

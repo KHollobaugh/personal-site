@@ -138,7 +138,7 @@ table {
   justify-content: space-between;
   display: flex;
   list-style: none;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid lightgrey;
   padding-top: 20px;
 }
 @media (max-width: 650px) {
@@ -433,7 +433,7 @@ table {
   }
 }
 .contact-content .social-media {
-  border-right: 1px solid lightgray;
+  border-right: 1px solid lightgrey;
   width: 49%;
   height: 100%;
   display: flex;
@@ -536,7 +536,7 @@ table {
   width: 70px;
   display: block;
   border-radius: 50%;
-  background-color: lightgray;
+  background-color: lightgrey;
   box-sizing: border-box;
 }
 @media (max-width: 650px) {
@@ -566,10 +566,99 @@ table {
   }
 }
 .dark {
-  background-color: black;
+  background-color: #141d26;
 }
 .dark button {
-  color: white;
+  color: #d9d9d9;
+}
+.dark .menu ul {
+  border-top: 1px solid #243447;
+}
+.dark .menu .link {
+  color: #d9d9d9;
+}
+.dark .home-page {
+  color: #d9d9d9;
+}
+.dark .home-page h1 {
+  color: #d9d9d9;
+}
+.dark .home-page .description p {
+  border-bottom: 1px solid #243447;
+  border-left: 1px solid #243447;
+}
+.dark .home-page .tech-icons .react {
+  background: #243447;
+}
+.dark .home-page .tech-icons .less {
+  background: #243447;
+}
+.dark .contact-page h1 {
+  color: #d9d9d9;
+}
+.dark .contact-page .contact-content .social-media {
+  border-right: 1px solid #243447;
+}
+.dark .contact-page .contact-content form input {
+  color: #d9d9d9;
+  border-bottom: 1px solid #243447;
+}
+.dark .contact-page .contact-content form input::placeholder {
+  color: #b7b7b7;
+}
+.dark .contact-page .contact-content form textarea {
+  color: #b7b7b7;
+  border: 1px solid #243447;
+}
+.dark .contact-page .contact-content form textarea::placeholder {
+  color: #b7b7b7;
+}
+.dark .contact-page .contact-content form button {
+  border: 1px solid #243447;
+  color: #b7b7b7;
+}
+.dark .contact-page .sm-icon {
+  background-color: #b7b7b7;
+}
+.dark .portfolio-page h1 {
+  color: #d9d9d9;
+}
+.dark .portfolio-page .card-body h3 {
+  color: #d9d9d9;
+}
+.dark .portfolio-page .card {
+  border-bottom: 1px solid #243447;
+}
+.dark .portfolio-page .card-text {
+  color: #b7b7b7;
+}
+.dark .portfolio-page button {
+  color: #d9d9d9;
+  border: 1px solid;
+}
+.dark .portfolio-page .project-display {
+  border: 1px solid #243447;
+}
+.dark .portfolio-page h4 {
+  color: #b7b7b7;
+}
+.dark .portfolio-page p {
+  color: #b7b7b7;
+}
+.dark .portfolio-page a {
+  color: #d9d9d9;
+}
+.dark .blog-page .card {
+  border-bottom: 1px solid #243447;
+}
+.dark .blog-page h1 {
+  color: #d9d9d9;
+}
+.dark .blog-page .card-body h3 {
+  color: #d9d9d9;
+}
+.dark .blog-page .card-body h4 {
+  color: #b7b7b7;
 }
 @font-face {
   font-family: 'Karla';

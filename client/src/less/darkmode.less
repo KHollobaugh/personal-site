@@ -1,6 +1,126 @@
 .dark {
-    background-color: black;
+    background-color: @dark-background;
     button {
-        color: white;
+        color: @dark-text;
+    }
+    //Menu
+    .menu {
+        ul {
+            border-top: 1px solid @dark-borders;
+        }
+        .link {
+            color: @dark-text;
+        }
+    }
+
+    //Home Page
+    .home-page {
+        color: @dark-text;
+        h1 {
+            color: @dark-text;
+        }
+        .description {
+            p {
+                border-bottom: 1px solid @dark-borders;
+                border-left: 1px solid @dark-borders;
+            }
+        }
+        .tech-icons {
+            .react {
+                background: @dark-borders;
+            }
+            .less {
+                background: @dark-borders;
+            }
+        }
+    }
+    
+    //Contact Page
+    .contact-page {
+        h1 {
+            color: @dark-text;
+        }
+        .contact-content {
+            .social-media {
+                border-right: 1px solid @dark-borders;
+            }
+            form {
+                input {
+                    color: @dark-text;
+                    border-bottom: 1px solid @dark-borders;
+                }
+                input::placeholder{
+                    color: @dark-subtext;
+                }
+                textarea {
+                    color: @dark-subtext;
+                    border: 1px solid @dark-borders;
+                }
+                textarea::placeholder {
+                    color: @dark-subtext;
+                }
+                button {
+                    border: 1px solid @dark-borders;
+                    color: @dark-subtext;
+                }
+            }
+        }
+        .sm-icon {
+            background-color: @dark-subtext;
+        }
+    }
+
+
+    //Portfolio Page
+    .portfolio-page {
+        h1 {
+            color: @dark-text;
+        }
+        .card-body {
+            h3 {
+                color: @dark-text;
+            }
+        }
+        .card {
+            border-bottom: 1px solid @dark-borders;
+        }
+        .card-text {
+            color: @dark-subtext;
+        }
+        button {
+            color: @dark-text;
+            border: 1px solid
+        }
+    
+    .project-display{
+        border: 1px solid @dark-borders;
+    }
+    h4 {
+        color: @dark-subtext;
+    }
+    p {
+        color: @dark-subtext;
+    }
+    a {
+        color: @dark-text;
+    }
+    }
+
+    //Blog Page
+    .blog-page {
+        .card {
+            border-bottom: 1px solid @dark-borders;
+        }
+        h1 {
+            color: @dark-text;
+        }
+        .card-body {
+            h3 {
+                color: @dark-text;
+            }
+            h4 {
+                color: @dark-subtext;
+            }
+        }
     }
 }

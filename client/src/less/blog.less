@@ -10,13 +10,13 @@
     .card {
         display: flex;
         padding: 20px;
-        border-bottom: 1px solid lightgrey;
+        border-bottom: 1px solid @borders;
     }
     h1 {
         letter-spacing: 1px;
         margin-top: 20px;
         font-size: 35px;
-        color: white;
+        color: @text;
         margin-bottom: 35px;
         @media @phone {
             font-size: 30px;
@@ -41,7 +41,7 @@
             margin-left: 20px;
         }
         h3 {
-            color: white;
+            color: @text;
             font-size: 20px;
             margin-bottom: 10px;
             @media @phone {
@@ -49,7 +49,7 @@
             }
         }
         h4 {
-            color: #ECEBEB;
+            color: @subtext;
             font-size: 16px;
             @media @phone {
                 display: none;
