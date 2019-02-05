@@ -13,21 +13,10 @@ const Home = () => {
 
         <h1>Hi, I'm Katy.</h1>
         <img src={ProfilePic} alt='profile'/>
-        <div className="desktop-view">
-          <p>
-        I'm a full-stack JavaScript developer with experience in state management systems like Redux and GraphQL, testing with Jest, and working with relational databases.<br/>
-
-        After graduating university, I attended a start-up hackathon and became interested in pursuing tech. This led me to Lambda School, where I completed the Web Development curriculum and went on to work in a full-time role managing Teaching Assistants, while continuing side projects of my own.<br/>
-
-        I love working closely with my team on a daily basis, and this role has helped me cultivated strong communication and leadership skills.
-        </p>  
-        </div>
-        
-        <div className="mobile-view">
+        <div className="description">
             <h3>I'm a Full-stack JavaScript Developer</h3>
             <p>
-        I like to build meaningful projects that help people,
-        and learn new technologies.
+        I like meaningful projects that help people. I enjoy working with a team, learning new things, and reading lots of books.
             </p>  
         </div>
         

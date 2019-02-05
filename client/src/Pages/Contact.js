@@ -1,5 +1,4 @@
 import React from 'react';
-import Phone from '../images/phone.png';
 import Email from '../images/email.png';
 import GitHub from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
@@ -29,7 +28,6 @@ const Contact = () => {
         <a href="https://twitter.com/KatyHollobaugh" className="sm-icon right twitter hvr-grow"><img src={Twitter} alt="twitter icon"/></a>
         <a href="https://github.com/KHollobaugh" className="sm-icon left github hvr-grow"><img src={GitHub} alt="github icon"/></a>
         <a href="mailto:khollobaugh@gmail.com" className="sm-icon right email hvr-grow"><img src={Email} alt="email icon"/></a>
-        <a href="tel:1-734-272-8234" className="sm-icon left phone hvr-grow"><img src={Phone} alt="phone icon"/></a>
 
         </div>
         </div>

@@ -166,7 +166,7 @@ table {
 }
 .home-page img {
   height: auto;
-  width: 200px;
+  width: 160px;
   border-radius: 50%;
 }
 @media (max-width: 650px) {
@@ -177,6 +177,7 @@ table {
 .home-page h1 {
   font-size: 40px;
   color: white;
+  letter-spacing: 1px;
 }
 @media (max-width: 650px) {
   .home-page h1 {
@@ -184,35 +185,30 @@ table {
     margin-top: 20px;
   }
 }
-.home-page .desktop-view {
-  display: block;
+.home-page .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
-@media (max-width: 650px) {
-  .home-page .desktop-view {
-    display: none;
-  }
-}
-.home-page .mobile-view {
-  display: none;
-  margin: 0 auto;
-}
-@media (max-width: 650px) {
-  .home-page .mobile-view {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-.home-page .mobile-view h3 {
+.home-page .description h3 {
   font-size: 18px;
   margin-bottom: 15px;
 }
-.home-page .mobile-view p {
+.home-page .description p {
   width: 80%;
   border-bottom: 1px solid lightgrey;
   border-left: 1px solid lightgrey;
   padding: 5px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.home-page .icon {
+  max-height: 50px;
+  max-width: 50px;
+  overflow: hidden;
+  margin: 10px;
 }
 @media (max-width: 650px) {
   .home-page .icon {
@@ -538,18 +534,19 @@ table {
     margin-top: 10px;
   }
 }
-.contact-content .right {
+.contact-content .left {
   margin-left: 50%;
 }
 @media (max-width: 650px) {
-  .contact-content .right {
+  .contact-content .left {
     margin: 0px;
   }
 }
-@media (max-width: 650px) {
-  .contact-content .email {
-    display: none;
-  }
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url(https://fonts.gstatic.com/s/karla/v6/qkBbXvYC6trAT7RVLtk.ttf) format('truetype');
 }
 .app-background {
   background: linear-gradient(0deg, rgba(138, 205, 197, 0.95424107) 0%, rgba(81, 118, 157, 0.92566964) 100%);
@@ -558,6 +555,7 @@ table {
   box-sizing: border-box;
   height: 100vh;
   margin: 0 auto;
+  font-family: 'Karla', sans-serif;
 }
 .App .content {
   width: 600px;

@@ -12,7 +12,7 @@
     }
     img {
         height: auto;
-        width: 200px;
+        width: 160px;
         border-radius: 50%;
         @media @phone {
             width: 100px;
@@ -21,27 +21,18 @@
     h1 {
         font-size: 40px;
         color: white;
+        letter-spacing: 1px;
         @media @phone {
             font-size: 30px;
             margin-top: 20px;
         }
     }
-    .desktop-view {
-        display: block;
-
-        @media @phone {
-            display: none;
-        }
-    }
-    .mobile-view {
-        display: none;
-        margin: 0 auto;
-        @media @phone {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
         h3 {
             font-size: 18px;
             margin-bottom: 15px;
@@ -51,9 +42,15 @@
             border-bottom: 1px solid lightgrey;
             border-left: 1px solid lightgrey;
             padding: 5px;
+            letter-spacing: 1px;
+            line-height: 20px;
         }
     }
     .icon {
+        max-height: 50px;
+        max-width: 50px;
+        overflow: hidden;
+        margin: 10px;
         @media @phone {
             max-height: 35px;
             max-width: 35px;
