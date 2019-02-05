@@ -156,7 +156,7 @@ table {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 60vh;
+  height: 70vh;
   color: white;
 }
 @media (max-width: 650px) {
@@ -181,7 +181,36 @@ table {
 @media (max-width: 650px) {
   .home-page h1 {
     font-size: 30px;
+    margin-top: 20px;
   }
+}
+.home-page .desktop-view {
+  display: inline;
+}
+@media (max-width: 650px) {
+  .home-page .desktop-view {
+    display: none;
+  }
+}
+.home-page .mobile-view {
+  display: none;
+}
+@media (max-width: 650px) {
+  .home-page .mobile-view {
+    display: inline;
+  }
+}
+@media (max-width: 650px) {
+  .home-page .icon {
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
+    margin: 10px;
+  }
+}
+.home-page .tech-icons {
+  display: flex;
+  flex-direction: column;
 }
 .blog-page {
   width: 100%;
@@ -201,24 +230,52 @@ table {
   color: white;
   margin-bottom: 35px;
 }
+@media (max-width: 650px) {
+  .blog-page h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
 .blog-page img {
   max-height: 100px;
   max-width: 100px;
   border-radius: 50%;
   overflow: hidden;
 }
+@media (max-width: 650px) {
+  .blog-page img {
+    max-height: 80px;
+    max-width: 80px;
+  }
+}
 .blog-page .card-body {
   margin: 10px 0px 0px 30px;
   text-align: left;
+}
+@media (max-width: 650px) {
+  .blog-page .card-body {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
 }
 .blog-page .card-body h3 {
   color: white;
   font-size: 20px;
   margin-bottom: 10px;
 }
+@media (max-width: 650px) {
+  .blog-page .card-body h3 {
+    font-size: 18px;
+  }
+}
 .blog-page .card-body h4 {
   color: lightgrey;
   font-size: 16px;
+}
+@media (max-width: 650px) {
+  .blog-page .card-body h4 {
+    display: none;
+  }
 }
 .portfolio-page {
   width: 100%;
@@ -334,6 +391,7 @@ table {
 @media (max-width: 650px) {
   .contact-content {
     flex-direction: column;
+    margin: 0px;
   }
 }
 .contact-content .social-media {
@@ -409,6 +467,7 @@ table {
 @media (max-width: 650px) {
   .contact-content form textarea {
     width: 90%;
+    height: 50px;
   }
 }
 .contact-content form textarea:focus {

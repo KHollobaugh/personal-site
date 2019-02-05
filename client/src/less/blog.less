@@ -16,24 +16,42 @@
         font-size: 35px;
         color: white;
         margin-bottom: 35px;
+        @media @phone {
+            font-size: 30px;
+            margin-top: 20px;
+        }
     }
     img {
         max-height: 100px;
         max-width: 100px;
         border-radius: 50%;
         overflow: hidden;
+        @media @phone {
+            max-height: 80px;
+            max-width: 80px;
+        }
     }
     .card-body{
         margin: 10px 0px 0px 30px;
         text-align: left;
+        @media @phone {
+            margin-top: 0px;
+            margin-left: 20px;
+        }
         h3 {
             color: white;
             font-size: 20px;
             margin-bottom: 10px;
+            @media @phone {
+                font-size: 18px;
+            }
         }
         h4 {
             color: lightgrey;
             font-size: 16px;
+            @media @phone {
+                display: none;
+            }
         }
     }
     

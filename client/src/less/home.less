@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
     color: white;
     @media @phone {
         justify-content: space-around;
@@ -23,6 +23,31 @@
         color: white;
         @media @phone {
             font-size: 30px;
+            margin-top: 20px;
         }
+    }
+    .desktop-view {
+        display: inline;
+        @media @phone {
+            display: none;
+        }
+    }
+    .mobile-view {
+        display: none;
+        @media @phone {
+            display: inline;
+        }
+    }
+    .icon {
+        @media @phone {
+            max-height: 40px;
+            max-width: 40px;
+            overflow: hidden;
+            margin: 10px;
+        }
+    }
+    .tech-icons {
+        display: flex;
+        flex-direction: column;
     }
 }
