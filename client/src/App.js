@@ -10,16 +10,29 @@ import Menu from './Components/Menu';
 
 document.body.classList.add('app-background');
 
-
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        dark: false
+    };
+    this.toggleClass = this.toggleClass.bind(this);
+}
+
+toggleClass() {
+  const currentState = this.state.dark;
+  this.setState({ dark: !currentState });
+  console.log('dark mode');
+};
 
   render() {
-
     return (
-      <div className="App">
+      <div className={this.state.dark ? 'dark App': "App"}>
 
       <div className="header">
-      <button>Activate Night Mode</button>
+      <button 
+      onClick={this.toggleClass}
+      >Activate Dark Mode</button>
       </div>
       <div className="content">
 

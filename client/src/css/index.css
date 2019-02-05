@@ -565,6 +565,9 @@ table {
     margin: 0px;
   }
 }
+.dark {
+  background-color: black;
+}
 @font-face {
   font-family: 'Karla';
   font-style: normal;
