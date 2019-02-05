@@ -24,10 +24,10 @@ const Contact = () => {
 
         <div className="social-media">
 
-        <a href="https://www.linkedin.com/in/katy-hollobaugh/" className="sm-icon left linkedin hvr-grow"><img src={Linkedin} alt="linkedin icon"/></a>
-        <a href="https://twitter.com/KatyHollobaugh" className="sm-icon right twitter hvr-grow"><img src={Twitter} alt="twitter icon"/></a>
-        <a href="https://github.com/KHollobaugh" className="sm-icon left github hvr-grow"><img src={GitHub} alt="github icon"/></a>
-        <a href="mailto:khollobaugh@gmail.com" className="sm-icon right email hvr-grow"><img src={Email} alt="email icon"/></a>
+        <a href="https://www.linkedin.com/in/katy-hollobaugh/" className="sm-icon left linkedin hvr-grow" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="linkedin icon"/></a>
+        <a href="https://twitter.com/KatyHollobaugh" className="sm-icon right twitter hvr-grow" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="twitter icon"/></a>
+        <a href="https://github.com/KHollobaugh" className="sm-icon left github hvr-grow" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="github icon"/></a>
+        <a href="mailto:khollobaugh@gmail.com" className="sm-icon right email hvr-grow" target="_blank" rel="noopener noreferrer"><img src={Email} alt="email icon"/></a>
 
         </div>
         </div>
