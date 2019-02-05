@@ -6,6 +6,7 @@ import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Blog from './Pages/Blog';
 import Menu from './Components/Menu';
+import ReadingList from './Pages/ReadingList';
 
 
 document.body.classList.add('app-background');
@@ -58,6 +59,8 @@ toggleClass() {
         <Route
         path="/Blog"
         component={Blog}/>
+        <Route path="/ReadingList"
+        component={ReadingList}/>
         </div>
 
         <Menu />

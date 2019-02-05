@@ -578,10 +578,12 @@ table {
 .light-mode {
   display: none;
   font-size: 16px;
+  cursor: pointer;
 }
 .dark-mode {
   color: white;
   font-size: 16px;
+  cursor: pointer;
 }
 .dark {
   transition: #141d26 0.5s ease;

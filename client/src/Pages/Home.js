@@ -14,7 +14,7 @@ const Home = () => {
         <h1>Hi, I'm Katy.</h1>
         <img src={ProfilePic} alt='profile'/>
         <div className="description">
-            <h3>I'm a Full-stack JavaScript Developer</h3>
+            <h3>I'm a Full-stack JavaScript Developer.</h3>
             <p>
         I like meaningful projects that help people. I enjoy working with a team, learning new things, and reading lots of books.
             </p>  
