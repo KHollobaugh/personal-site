@@ -566,6 +566,7 @@ table {
   }
 }
 .dark {
+  transition: #141d26 0.5s ease;
   background-color: #141d26;
 }
 .dark button {
@@ -674,6 +675,10 @@ table {
   height: 100vh;
   margin: 0 auto;
   font-family: 'Karla', sans-serif;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 .App .content {
   width: 600px;
