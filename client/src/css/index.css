@@ -193,6 +193,11 @@ table {
   align-items: center;
   width: 80%;
 }
+@media (max-width: 650px) {
+  .home-page .description {
+    width: 90%;
+  }
+}
 .home-page .description h3 {
   font-size: 18px;
   margin-bottom: 15px;
@@ -204,6 +209,11 @@ table {
   padding: 5px;
   letter-spacing: 1px;
   line-height: 20px;
+}
+@media (max-width: 650px) {
+  .home-page .description p {
+    width: 100%;
+  }
 }
 .home-page .icon {
   max-height: 50px;

@@ -25,6 +25,8 @@ toggleClass() {
   console.log('dark mode');
 };
 
+
+
   render() {
     return (
       <div className={this.state.dark ? 'dark App': "App"}>
@@ -32,7 +34,7 @@ toggleClass() {
       <div className="header">
       <button 
       onClick={this.toggleClass}
-      >Activate Dark Mode</button>
+      >Dark Mode</button>
       </div>
       <div className="content">
 
