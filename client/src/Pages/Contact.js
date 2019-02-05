@@ -11,12 +11,12 @@ const Contact = () => {
         <h1>Let's talk</h1>
         <div className="contact-content">
         
-        <form action="https://formspree.io/khollobaugh@gmail.com" method="POST">
+        <form action="https://formcarry.com/s/RIuT17erXO3" method="POST" accept-charset="UTF-8" >
         <div className="boxes">
             <input type="name" name="name" id="exampleName" placeholder="Name" />
 
             <input type="email" name="email" id="exampleEmail" placeholder="Email" />
-
+            <input type="hidden" name="_gotcha"></input>
             <textarea type="message" name="message" id="message" placeholder="Message" />
             <button type="submit" value="send">Submit</button>
         </div>
