@@ -568,6 +568,9 @@ table {
 .dark {
   background-color: black;
 }
+.dark button {
+  color: white;
+}
 @font-face {
   font-family: 'Karla';
   font-style: normal;
