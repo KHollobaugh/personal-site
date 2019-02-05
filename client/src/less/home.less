@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 70vh;
+    height: 75vh;
     color: white;
     @media @phone {
         justify-content: space-around;
@@ -27,27 +27,47 @@
         }
     }
     .desktop-view {
-        display: inline;
+        display: block;
+
         @media @phone {
             display: none;
         }
     }
     .mobile-view {
         display: none;
+        margin: 0 auto;
         @media @phone {
-            display: inline;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        p {
+            width: 80%;
+            border-bottom: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            padding: 5px;
         }
     }
     .icon {
         @media @phone {
-            max-height: 40px;
-            max-width: 40px;
+            max-height: 35px;
+            max-width: 35px;
             overflow: hidden;
-            margin: 10px;
+            margin: 5px;
         }
     }
     .tech-icons {
         display: flex;
-        flex-direction: column;
+        .react {
+            background: lightgrey;
+        }
+        .less {
+            background: lightgrey;
+        }
     }
 }

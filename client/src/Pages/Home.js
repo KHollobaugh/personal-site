@@ -27,8 +27,7 @@ const Home = () => {
             <h3>I'm a Full-stack JavaScript Developer</h3>
             <p>
         I like to build meaningful projects that help people,
-        learn new technologies,
-        and wake up early to drink strong coffee.
+        and learn new technologies.
             </p>  
         </div>
         
