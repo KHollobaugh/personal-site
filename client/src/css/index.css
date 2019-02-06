@@ -315,6 +315,11 @@ table {
 .portfolio-page a {
   text-decoration: none;
 }
+.portfolio-page .top-link {
+  font-size: 16px;
+  height: 25px;
+  margin-bottom: 15px;
+}
 .portfolio-page .card {
   display: flex;
   padding: 20px;
@@ -325,7 +330,7 @@ table {
   margin-top: 20px;
   font-size: 35px;
   color: white;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 @media (max-width: 650px) {
   .portfolio-page h1 {
@@ -372,6 +377,7 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10px;
 }
 .portfolio-page .project-display .view-more {
   height: 30px;
