@@ -13,7 +13,7 @@ const ProjectDisplay = props => {
         )}
         <div className="view-more" >
         <a href="https://github.com/KHollobaugh?tab=repositories"  target="_blank" rel="noopener noreferrer">
-        View More
+        See More
         </a>
         </div>
         </div>

@@ -220,6 +220,7 @@ table {
   max-width: 50px;
   overflow: hidden;
   margin: 10px;
+  border-radius: 0px;
 }
 @media (max-width: 650px) {
   .home-page .icon {
@@ -234,9 +235,11 @@ table {
 }
 .home-page .tech-icons .react {
   background: lightgrey;
+  border-radius: 50%;
 }
 .home-page .tech-icons .less {
   background: lightgrey;
+  border-radius: 50%;
 }
 .blog-page {
   width: 100%;

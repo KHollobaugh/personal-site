@@ -34,12 +34,12 @@ toggleClass() {
 
       <div className="header">
       
-      <button class="dark-mode"
+      <button className="dark-mode"
       onClick={this.toggleClass}
-      >Dark Mode <i class="far fa-moon"></i></button>
-      <button class="light-mode"
+      >Dark Mode <i className="far fa-moon"></i></button>
+      <button className="light-mode"
       onClick={this.toggleClass}
-      >Light Mode <i class="fas fa-lightbulb"></i></button>
+      >Light Mode <i className="fas fa-lightbulb"></i></button>
 
       </div>
       <div className="content">

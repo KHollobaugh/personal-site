@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
           className='button'
           target="_blank"
           rel="noopener noreferrer">
-          View Rendering</a></Button>
+          View Site</a></Button>
 
           <Button className="button">
           <a href={props.project.code}
