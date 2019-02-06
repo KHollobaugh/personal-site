@@ -1,3 +1,4 @@
+// vim: syntax=JSX
 import React from 'react';
 import Email from '../images/email.png';
 import GitHub from '../images/github.png';
