@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Email from '../images/email.png';
 import GitHub from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
 import Twitter from '../images/twitter.png';
+import {withRouter} from 'react-router-dom';
 
-const Contact = () => {
+
+class Contact extends Component {
+
+
+   submitForm = e => {
+        e.preventDefault();
+        this.props.history.push('/contact');
+        window.location.reload();
+   }
+
+    render() {
     return(
         <div className="contact-page">
 
         <h1>Let's talk</h1>
         <div className="contact-content">
         
-        <form action="https://formcarry.com/s/RIuT17erXO3" method="POST" accept-charset="UTF-8" >
+        <form action="https://formcarry.com/s/RIuT17erXO3" method="POST" acceptCharset="UTF-8"  onSubmit={this.submitForm.bind(this)}>
         <div className="boxes">
             <input type="name" name="name" id="exampleName" placeholder="Name" />
 
@@ -34,7 +45,8 @@ const Contact = () => {
 
         </div>
     )
+    }
 }
 
 
-export default Contact;
+export default withRouter(Contact);

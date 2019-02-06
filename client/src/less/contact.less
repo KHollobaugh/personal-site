@@ -20,6 +20,9 @@
             margin-bottom: 0px;
         }
     }
+    p{
+        color: @text;
+    }
 }
 
 .contact-content {
@@ -32,6 +35,12 @@
     @media @phone {
         flex-direction: column;
         margin: 0px;
+    }
+    .message {
+        display: block;
+    }
+    .hide-message {
+        display: none;
     }
 
     .social-media {
@@ -114,6 +123,7 @@
             width: 70px;
             height: 30px;
             font-size: 14px;
+            cursor: pointer;
             @media @phone {
                 width: 150px;
                 height: 40px;

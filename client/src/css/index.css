@@ -431,6 +431,9 @@ table {
     margin-bottom: 0px;
   }
 }
+.contact-page p {
+  color: white;
+}
 .contact-content {
   display: flex;
   flex-direction: row-reverse;
@@ -444,6 +447,12 @@ table {
     flex-direction: column;
     margin: 0px;
   }
+}
+.contact-content .message {
+  display: block;
+}
+.contact-content .hide-message {
+  display: none;
 }
 .contact-content .social-media {
   border-right: 1px solid lightgrey;
@@ -536,6 +545,7 @@ table {
   width: 70px;
   height: 30px;
   font-size: 14px;
+  cursor: pointer;
 }
 @media (max-width: 650px) {
   .contact-content form button {
@@ -624,6 +634,9 @@ table {
   background: #243447;
 }
 .dark .contact-page h1 {
+  color: #d9d9d9;
+}
+.dark .contact-page .contact-content p {
   color: #d9d9d9;
 }
 .dark .contact-page .contact-content .social-media {
