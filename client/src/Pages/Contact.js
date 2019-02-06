@@ -1,35 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Email from '../images/email.png';
 import GitHub from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
 import Twitter from '../images/twitter.png';
-import {withRouter} from 'react-router-dom';
 
 
-class Contact extends Component {
 
-
-   submitForm = e => {
-        e.preventDefault();
-        this.props.history.push('/contact');
-        window.location.reload();
-   }
-
-    render() {
+const Contact = () => {
     return(
         <div className="contact-page">
 
         <h1>Let's talk</h1>
         <div className="contact-content">
         
-        <form action="https://formcarry.com/s/RIuT17erXO3" method="POST" acceptCharset="UTF-8"  onSubmit={this.submitForm.bind(this)}>
+        <form name="contact" method="POST">
         <div className="boxes">
+            <input type="hidden" name="form-name" value="contact" />
             <input type="name" name="name" id="exampleName" placeholder="Name" />
-
             <input type="email" name="email" id="exampleEmail" placeholder="Email" />
-            <input type="hidden" name="_gotcha"></input>
             <textarea type="message" name="message" id="message" placeholder="Message" />
-            <button type="submit" value="send">Submit</button>
+            <button type="submit">Submit</button>
         </div>
         </form>
 
@@ -45,8 +35,7 @@ class Contact extends Component {
 
         </div>
     )
-    }
 }
 
 
-export default withRouter(Contact);
+export default Contact;

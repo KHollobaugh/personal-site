@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/index.css';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
 import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
@@ -45,22 +45,24 @@ toggleClass() {
       <div className="content">
 
         <div className="routes">
+        <Switch>
         <Route
         exact
         path="/"
         component={Home}
         />
         <Route
-        path="/Contact"
+        path="/contact"
         component={Contact}/>
         <Route
-        path="/Portfolio"
+        path="/portfolio"
         component={Portfolio}/>
         <Route
-        path="/Blog"
+        path="/blog"
         component={Blog}/>
-        <Route path="/ReadingList"
+        <Route path="/readingList"
         component={ReadingList}/>
+        </Switch>
         </div>
 
         <Menu />
