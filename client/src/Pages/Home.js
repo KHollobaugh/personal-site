@@ -22,14 +22,14 @@ const Home = () => {
         
         <div className="tech-icons">
         <div className="line-one">
-        <img src={Reactjs} alt="React.js" className="icon react"/>
-        <img src={GraphQL} alt="GraphQL" className="icon graphql"/>
-        <img src={Redux} alt="Redux" className="icon redux"/>
+        <img src={Reactjs} alt="React.js" title="React.js" className="icon react"/>
+        <img src={GraphQL} alt="GraphQL" title="GraphQL" className="icon graphql"/>
+        <img src={Redux} alt="Redux" title="Redux" className="icon redux"/>
         </div>
         <div className="line-two">
-        <img src={Less} alt="Less compiler" className="icon less"/>
-        <img src={SQL} alt="SQL database" className="icon sql"/>
-        <img src={JavaScript} alt="JavaScript" className="icon js"/>
+        <img src={Less} alt="Less compiler" title="Less.css" className="icon less"/>
+        <img src={SQL} alt="SQL database" title="SQL" className="icon sql"/>
+        <img src={JavaScript} alt="JavaScript" title="JavaScript" className="icon js"/>
         </div>
         </div>
 
