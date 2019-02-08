@@ -5,7 +5,10 @@ const BookCard = props => {
         <div className='book-card'>
         {props.books.map((book, index) =>
         <div key={index} book={book}>
-        <h1>BookCard</h1>
+        <a href={book.url}>
+        <img src={book.image} alt="book-title"/>
+        </a>
+        
         </div>
         
         )}  
