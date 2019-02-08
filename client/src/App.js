@@ -15,31 +15,42 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-        dark: false
+        dark: false,
+        stars: false
     };
-    this.toggleClass = this.toggleClass.bind(this);
+    this.toggleDark = this.toggleDark.bind(this);
+    this.toggleStars = this.toggleStars.bind(this);
 }
 
-toggleClass() {
+toggleDark() {
   const currentState = this.state.dark;
   this.setState({ dark: !currentState });
-  console.log('dark mode');
 };
-
-
-
+toggleStars() {
+  const currentStars = this.state.stars;
+  this.setState({ stars: !currentStars });
+  console.log(this.state.stars, 'stars');
+};
   render() {
     return (
-      <div className={this.state.dark ? 'dark App': "App"}>
+      <div className={this.state.dark ? 'dark App': 'App'}>
 
       <div className="header">
       
       <button className="dark-mode"
-      onClick={this.toggleClass}
+      onClick={this.toggleDark}
       >Dark Mode <i className="far fa-moon"></i></button>
       <button className="light-mode"
-      onClick={this.toggleClass}
+      onClick={this.toggleDark}
       >Light Mode <i className="fas fa-lightbulb"></i></button>
+
+
+      {/* <button className="stars-on"
+      onClick={this.toggleStars}
+      >Go Stargazing<i className="fas fa-lightbulb"></i></button>
+      <button className="stars-off"
+      onClick={this.toggleStars}
+      >Remove Stars<i className="fas fa-lightbulb"></i></button> */}
 
       </div>
       <div className="content">
