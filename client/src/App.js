@@ -71,7 +71,7 @@ toggleStars() {
         <Route
         path="/blog"
         component={Blog}/>
-        <Route path="/readingList"
+        <Route path="/readinglist"
         component={ReadingList}/>
         </Switch>
         </div>

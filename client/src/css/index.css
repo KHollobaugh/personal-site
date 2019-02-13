@@ -252,7 +252,9 @@ table {
 .blog-page .card {
   display: flex;
   padding: 20px;
-  border-bottom: 1px solid lightgrey;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 5px 0px;
+  border-radius: 5px;
 }
 .blog-page h1 {
   letter-spacing: 1px;
@@ -308,17 +310,17 @@ table {
     display: none;
   }
 }
-.blog-page .reading-button {
-  margin-top: 25px;
-}
-.blog-page .reading-button h3 {
+.blog-page a {
   color: white;
   font-size: 20px;
 }
 @media (max-width: 650px) {
-  .blog-page .reading-button h3 {
+  .blog-page a {
     font-size: 18px;
   }
+}
+.blog-page .blog-lower {
+  margin-top: 20px;
 }
 .portfolio-page {
   width: 100%;
