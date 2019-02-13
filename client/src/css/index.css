@@ -308,6 +308,18 @@ table {
     display: none;
   }
 }
+.blog-page .reading-button {
+  margin-top: 25px;
+}
+.blog-page .reading-button h3 {
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 650px) {
+  .blog-page .reading-button h3 {
+    font-size: 18px;
+  }
+}
 .portfolio-page {
   width: 100%;
   text-align: center;
